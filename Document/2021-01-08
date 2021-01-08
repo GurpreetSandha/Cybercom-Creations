@@ -1,1 +1,36 @@
 Today, I started my work by revising all the commands that I've learned in past 3 days of github training. 
+
+After doing the quick revision of Github, I started referring the course of HTML and JS which was shared by Jayashree ma'am yesterday in our Skype group. 
+I watched some videos there and brushed up my concepts of HTML which I've studied in web develepement subject in 5th semester.
+
+In the meeting, professor taught us HTML. Specifically, headings, lists, thead and tbody command etc.
+
+So, here I am listing the commands that were taught to us in meeting
+
+LIsts:
+
+1. Unordered lists: 
+
+<ul> tag is used to stard an unordered list. Although, each list item starts with the <li> command
+
+Unordered lists starts with a buller
+
+2. Ordered list
+
+Ordered list starts with <ol> tag. Again, as it is a list item, it will start from <li> tag.
+Ordered lists starts from number.
+
+
+3. <thead>
+According to my understanding in the meeting, <thead> tag is used to group header content in HTML table
+<thead> element must contain  <tr> tags in it
+
+4.<tbody>
+
+
+Apart from these commands, I've revised few other HTML commands that I studied in curriculum. Now, I'll sign off and rejoin on 29th as I am 
+having my GTU exams.
+
+
+
+
