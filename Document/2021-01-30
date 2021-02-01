@@ -1,0 +1,76 @@
+Post exams, I have started watching Javascript tutorials. 
+
+In this file, I will summarize the concepts which I have learned today from the course provided in our training group.
+
+I've made notes of the course and I would like to write everyting down here :
+
+->Javascript is a light weight, cross platform, object-oriented computer programming language
+
+->Javascript is one of the 3 core technologies of web developement
+
+
+
+
+****Variables in Javascript****
+
+Variable is a container in which we can store a value
+
+Eg: var FirstName='John';
+console.log(FirstName);
+
+OUTPUT:
+John
+
+**Data Types in JS**
+1. Number
+Floating point numbers for decimal and integers
+
+2. String:
+Sequence of characters, used  for text
+
+3. Boolean:
+Logical data type that can be true or false
+
+4. Undefined: 
+Data type of a variable that doesn't have a value yet
+
+5. Null:
+
+Also means 'non-existent'
+
+->Javascript has dynamic typing: Data types are automatically assigned to variables
+
+->Variables name must start with alphabets,_,$. It should'nt contain any special symbols
+
+**COMMENTS***
+1.Single Line comments:
+ They are used to comment a particular single line in editor
+ To start single line comments, we use // symbol
+ 
+2. Multi Line comments:
+Multiline comments are used to comment out particular piece of come
+
+Multiline comments start with /* and ends with */
+The piece of code written between /* and */ will act as comment
+
+** Variable Mutuation and Type Coersion**
+
+var firstName='John';
+var age=28;
+
+//Type coersion
+console.log(firstName + ' '+age)
+
+var job, isMarried;
+job='Teacher';
+isMarried=false;
+
+console.log(firstName+ ' is'+ age+' years old'+ job  +'. Is he married?'   +  isMarried )
+
+//Variable mutation
+job='Driver';
+age='Twenty Eight';
+
+alert(firstName+' is a '+ age + 'years old' +job)
+
+var lastName= prompt("What is his last name?")
