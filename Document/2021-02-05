@@ -1,0 +1,17 @@
+Today I learned OOP concepts in PHP
+PHP programming patterns:
+1- Procedural /Core PHP
+2- Object Oriented
+
+It is better to use Object Oriented approach as code becomes reusable and code is well organized.
+Error rectification is easy in OOP
+OOP approach is used for medium or large objects
+
+There are several MVC frameworks which uses OOP concepts of PHP like:
+*Laravel
+*Zend
+*Code Igniter
+*Yii
+
+I also studied all the OOP concepts like class, inheritence etc. 
+I am going to attact the coding part in practice folder
