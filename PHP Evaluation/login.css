@@ -1,0 +1,49 @@
+.gs {
+    width: 50%;  
+    height: 600px;;
+  
+    margin-left: 150px ;
+    margin-top: 100px;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid black;
+    ;
+  }
+
+  .gs1 {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 350px;
+  }
+.image
+{
+    margin-left: 200px;
+}
+  .sample{
+    width: 120%;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .sample1 {
+    
+    padding-left: 20px;
+    font-size: 15px;
+    display: block;
+    width: 120%;
+    height: 45px;
+    border-radius: 10px;
+  }
+
+  .sample2 {
+    
+    padding-left: 20px;
+    font-size: 15px;
+    display: block;
+    width: 125%;
+    height: 45px;
+    background-color: blue;
+    border-radius: 10px;
+  }

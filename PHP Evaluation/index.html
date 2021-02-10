@@ -1,0 +1,78 @@
+
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>JavaScript Form Validation</title>
+     <link rel="stylesheet" href="style.css">
+ 
+ </head>
+ 
+ <body>
+
+    <div class="gs">
+        <label><center><b>REGISTER</b></center></label>
+     
+     <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        
+        
+    <div class="new" > Prefix
+            <select class="new" id="prefix">
+            
+             </select>  
+
+        <div class="formdesign" id="name"style="margin-left: 57px">
+            First Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+         </div>
+
+     
+
+         <div class="formdesign" id="name"style="margin-left: 65px">
+            Last name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+ 
+         <div class="formdesign" id="email" style="margin-left: 100px">
+             Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+         </div>
+ 
+         <div class="formdesign" id="phone" style="margin-left: 25px">
+             Mobile number: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+         </div>
+ 
+         <div class="formdesign" id="pass" style="margin-left: 77px;">
+             Password:  <input type="password" name="fpass" required><b><span class="formerror"</span></b>
+         </div>
+ 
+         <div class="formdesign" id="cpass">
+             Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+         </div>
+
+         <div class="formdesign"style="margin-left: 75px">
+             Information
+         <textarea id="field5" name="field5" rows="4" cols="50">
+            </textarea>
+        </div>
+
+
+         
+<div style="margin-left: 170px">
+    <br>
+            <input type="checkbox" id="termsandcondition" name="termsandcondition" value="termsandcondition">&nbsp;<label for="termsandcondition"></label>Hereby I accept terms and conditions</label><br>
+ </div>
+
+        <div class="sample"style="margin-left: 175px">
+            
+                     <input class="sample2" type="submit" value="Submit">
+                  
+ </div>
+     </form>
+ </body>
+ <script src="index.js"></script>
+ 
+ </html>
+ 
+    
