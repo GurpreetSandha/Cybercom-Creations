@@ -1,0 +1,54 @@
+Today I explored Arrays in PHP
+->Array is a special variable which can hold more than one value at a time.
+->An array is a data structure that stores one or more similar type of values in a single value.
+
+For example: If we want to store 100 numbers, then instead of defining 100 variables, we can define an array of length 100
+
+#Types of Array#
+1. Indexed Array
+2. Associative Array
+3. Multidimensional Array
+
+                                      1.Indexed Array
+                                      
+PHP index is represented by a number which starts from 0
+
+There are 2 ways to define an PHP Indexed Array
+
+METHOD 1:
+$color=array("black","blue","red","orange");
+
+METHOD 2:
+$color[0]="black";
+$color[1]="blue";
+$color[2]="red";
+$color[3]="orange";
+
+                                      2.Associative Array
+                                 
+In Associative array, we can associate name with each array elements using => symbol.
+
+METHOD 1:
+
+$salary=array("Mahesh"=>"50000", "Ramesh"=>"30000", "Krimesh"=>"10000000";
+
+METHOD 2:
+
+$salary["Mahesh"]="50000";
+$salary["Ramesh"]="30000";
+$salary["Krimesh"]="100000000";
+
+                                     3. Multidimensional Array
+                                   
+Multidimensional arrays are also known as arrays of arrays.
+
+$emp = array  
+  (  
+  array(1,"sonoo",400000),  
+  array(2,"john",500000),  
+  array(3,"rahul",300000)  
+  );  
+  
+  
+  
+  Practice files I'll upload in practice folder.
